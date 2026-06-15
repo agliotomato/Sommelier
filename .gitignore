@@ -1,0 +1,17 @@
+# Python gitignore
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+ENV/
+env/
+.env
+
+# Streamlit config
+.streamlit/config.toml
+
+# OS files
+.DS_Store
+Thumbs.db
+demo_scenario.md
