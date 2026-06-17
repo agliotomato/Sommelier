@@ -18,7 +18,7 @@ BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
 
 # 4. App Title & Premium Banner
 st.title("🍷 SOMMELIER")
-st.caption("당신만을 위한 맞춤형 와인 & 안주 마리아주 추천 | 2021204064 서현택")
+st.caption("당신만을 위한 맞춤형 와인 & 안주 페어링 추천 | 2021204064 서현택")
 st.divider()
 
 # 5. Core Layout Structure (Sidebar Inputs & Main Panel Recommendations)
@@ -87,7 +87,7 @@ with col1:
 
     # 5.2 Food Pairing Mode Inputs
     else:
-        st.info("오늘 먹을 음식을 알려주시면, 마리아주가 가장 훌륭한 와인을 찾아드립니다.")
+        st.info("오늘 먹을 음식을 알려주시면, 가장 잘 어울리는 궁합(페어링)의 와인을 찾아드립니다.")
         
         food_selection = st.selectbox(
             "오늘의 안주/요리 메뉴",
@@ -193,7 +193,7 @@ with col2:
                 <h4 style="margin-top: 15px; color: #D4AF37; font-family: 'Playfair Display', serif;">당신의 취향을 탐험할 시간입니다</h4>
                 <p style="color: #A9A9A9; font-size: 14px; max-width: 450px; margin: 10px auto;">
                     좌측 설정 패널에서 취향 점수 혹은 오늘 저녁에 곁들일 음식 메뉴를 설정하고 
-                    <strong>'소믈리에 추천 받기'</strong> 버튼을 클릭하여 궁극의 마리아주 와인을 매칭해 보세요.
+                    <strong>'소믈리에 추천 받기'</strong> 버튼을 클릭하여 최고의 와인 페어링을 매칭해 보세요.
                 </p>
             </div>
             """, 
